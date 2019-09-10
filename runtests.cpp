@@ -32,8 +32,8 @@ int main()
 	// since you're basically doing the same thing twice,
 	// write a function to read a single file into a vector
 	// and then call this function twice.
-	numbers.reserve(100000000000);
-	search.reserve(10000);
+	numbers.reserve(1000000);
+	search.reserve(2000);
 
 	readFile("numbers", numbers);
 	readFile("search", search);
