@@ -1,7 +1,7 @@
 #include <vector>
 #include "search.h"
 
-bool binarySearch(const std::vector<int> set, int  value)
+bool binarySearch(const std::vector<int>& set, int  value)
 {
 	size_t begin = 0;
 	size_t end = set.size() - 1;
