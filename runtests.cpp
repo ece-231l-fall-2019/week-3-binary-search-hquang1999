@@ -26,12 +26,6 @@ int main()
 	std::vector<int> numbers;
 	std::vector<int> search;
 
-	// TODO:
-
-	// read the file "search" into the search vector
-	// since you're basically doing the same thing twice,
-	// write a function to read a single file into a vector
-	// and then call this function twice.
 	numbers.reserve(1000000);
 	search.reserve(2000);
 
@@ -67,8 +61,6 @@ int main()
 			<< search.size() << " values." << std::endl;
 	}
 
-	// TODO:
-	// repeat the above two blocks but use the binary search functions.
 	{
                 Timer timer("Time to binary search all values: ");
 
