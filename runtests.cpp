@@ -77,7 +77,7 @@ int main()
         }
 
         {
-                Timer timer("Time to binary search all values (pointers): ");
+                Timer timer("Time to binary search all values (Recursive): ");
 
                 int found = 0;
                 for (size_t i = 0; i < search.size(); i++)
